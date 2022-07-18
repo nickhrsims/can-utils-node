@@ -3,5 +3,5 @@ module.exports = {
     preset: 'ts-jest',
     setupFiles: [],
     testEnvironment: 'node',
-    testRegex: 'test\\.(smoke|unit|integration)?\\.ts$',
+    testRegex: '\\.spec\\.ts$',
 };
